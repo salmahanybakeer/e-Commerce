@@ -95,3 +95,114 @@ header{
   align-items: center;
   gap: 20px;
 }
+/*----------------------------PHOTO---------------------------------*/
+.hero {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: #f2f0f1;
+  padding: 40px;
+  gap: 40px;
+  height: 663px;           
+  box-sizing: border-box;
+  overflow: hidden; 
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.hero-title {
+  font-size: 56px;
+  font-weight: 900;
+  line-height: 1.1;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+}
+
+.hero-description {
+  font-size: 16px;
+  color: #555555;
+  margin-bottom: 30px;
+  max-width: 450px;
+}
+
+.shop-now-btn {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 16px 48px;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.shop-now-btn:hover {
+  background-color: #333333;
+}
+
+.hero-stats {
+  display: flex;
+  gap: 40px;
+}
+
+.stat h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.stat p {
+  font-size: 14px;
+  color: #555555;
+  margin: 4px 0 0 0;
+}
+
+.hero-image {
+    position: relative;
+  flex: 1;
+  max-width: 500px;
+   height: 100%;
+  overflow: visible;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;  
+  object-position: center 10%;
+  display: block;
+}
+
+.star {
+  position: absolute;
+}
+
+.star-large {
+  top: 5%;
+  right: -10%;
+}
+
+.star-small {
+  top: 45%;
+  left: -8%;
+  width: 60px;
+  height: 60px;
+}
+
+.star-small svg {
+  width: 100%;
+  height: 100%;
+}
+
+.stat {
+  padding-left: 40px;
+  border-left: 1px solid #ccc;
+}
+
+.stat:first-child {
+  padding-left: 0;
+  border-left: none;
+}
