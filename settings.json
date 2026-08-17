@@ -1,0 +1,26 @@
+{
+"id": "tape-tshirt",
+"name": "T-shirt with Tape Details",
+"category": "T-shirts",
+"style": "Casual",
+"gender": "Men",
+"price": 120,
+"originalPrice": 120,
+"discount": 0,
+"rating": 4.5,
+"reviewCount": 451,
+"colors": [
+{ "name": "Black", "hex": "#000000" },
+{ "name": "White", "hex": "#FFFFFF" },
+{ "name": "Blue", "hex": "#063AF5" }
+],
+"sizes": ["Small", "Medium"],
+"images": [
+"assets/images/products/tape-tshirt.jpg",
+// ...
+],
+"description": "...",
+"details": "...",
+"tags": ["new"],
+"stock": 24
+}
