@@ -428,15 +428,19 @@ section li img {
 .upto-date {
   background-color: #000000;
   border-radius: 24px;
-  margin: 0 40px 60px 40px;
+  margin: -120px 40px 60px 40px;
   padding: 40px 60px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 24px;
+  position: relative;
+  z-index: 2;
 }
-
+.testimonials {
+  margin-bottom: 60px;   /* pushes testimonials content further from the black box */
+}
 .upto-date h2 {
   color: #ffffff;
   font-size: 28px;
@@ -474,4 +478,113 @@ section li img {
 
 .subscribe-btn:hover {
   background-color: #e5e5e5;
+}
+/*---------------------------------------------------FOOTER--------------------------------------*/
+footer {
+  padding: 40px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+  gap: 24px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.footer-brand .logo {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.footer-brand p {
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  max-width: 280px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons span {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.footer-links h3 {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin: 0 0 20px 0;
+}
+
+.footer-links ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.footer-links li {
+  font-size: 14px;
+  color: #555555;
+  cursor: pointer;
+}
+
+.footer-links li:hover {
+  color: #000000;
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-bottom p {
+  font-size: 14px;
+  color: #555555;
+  margin: 0;
+}
+
+.payment-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.payment-icons span {
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  padding: 6px 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+.payment-icons span img {
+  width: 40px;
+  height: auto;
+}
+
+.footer-wrapper {
+  background-color: #f2f0f1;
+  padding-top: 40px;
+  border-radius: 0 0 0 0;
 }
