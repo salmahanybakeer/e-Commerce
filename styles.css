@@ -424,3 +424,54 @@ section li img {
   line-height: 1.5;
   margin: 0;
 }
+/*---------------------------------STAY UPTO DATE----------------------------------------*/
+.upto-date {
+  background-color: #000000;
+  border-radius: 24px;
+  margin: 0 40px 60px 40px;
+  padding: 40px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.upto-date h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: left;
+  margin: 0;
+  max-width: 400px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.form input {
+  width: 320px;
+  padding: 14px 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+}
+
+.subscribe-btn {
+  background-color: #ffffff;
+  color: #000000;
+  border: none;
+  padding: 14px 20px;
+  border-radius: 30px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.subscribe-btn:hover {
+  background-color: #e5e5e5;
+}
