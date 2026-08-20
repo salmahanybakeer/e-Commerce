@@ -324,7 +324,8 @@ section li img {
   border-radius: 12px;
   overflow: hidden;
   background-color: #ffffff;
-  width: 100%; 
+  width: 100%;
+  height: 140px;  
 }
 
 .style img {
@@ -350,9 +351,9 @@ section li img {
 }
 .st ul {
   display: grid;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 24px;
+  gap: 12px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -428,7 +429,7 @@ section li img {
 .upto-date {
   background-color: #000000;
   border-radius: 24px;
-  margin: -120px 40px 60px 40px;
+  margin: 40px 40px 60px 40px;
   padding: 40px 60px;
   display: flex;
   align-items: center;
