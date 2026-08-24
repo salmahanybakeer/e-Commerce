@@ -79,9 +79,15 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border: 1px solid #e0e0e0;
 }
 
 .checkmark {
+  color: #ffffff;
+  font-size: 14px;
+}
+.swatch.selected::after {
+  content: "✔";
   color: #ffffff;
   font-size: 14px;
 }

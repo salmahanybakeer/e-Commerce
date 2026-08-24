@@ -1,26 +1,267 @@
-{
-"id": "tape-tshirt",
-"name": "T-shirt with Tape Details",
-"category": "T-shirts",
-"style": "Casual",
-"gender": "Men",
-"price": 120,
-"originalPrice": 120,
-"discount": 0,
-"rating": 4.5,
-"reviewCount": 451,
-"colors": [
-{ "name": "Black", "hex": "#000000" },
-{ "name": "White", "hex": "#FFFFFF" },
-{ "name": "Blue", "hex": "#063AF5" }
-],
-"sizes": ["Small", "Medium"],
-"images": [
-"assets/images/products/tape-tshirt.jpg",
-// ...
-],
-"description": "...",
-"details": "...",
-"tags": ["new"],
-"stock": 24
-}
+[
+  {
+    "id": "tape-tshirt",
+    "name": "T-shirt with Tape Details",
+    "category": "T-shirts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 120,
+    "originalPrice": 120,
+    "discount": 0,
+    "rating": 4.5,
+    "reviewCount": 451,
+    "colors": [
+      { "name": "Black", "hex": "#000000" },
+      { "name": "White", "hex": "#FFFFFF" },
+      { "name": "Blue", "hex": "#063AF5" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/tshirt.jpg"],
+    "description": "A classic t-shirt with a stylish tape detail, made from soft, breathable fabric.",
+    "details": "100% cotton. Machine washable.",
+    "tags": ["new"],
+    "stock": 24
+  },
+  {
+    "id": "skinny-fit-jeans",
+    "name": "Skinny Fit Jeans",
+    "category": "Jeans",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 240,
+    "originalPrice": 260,
+    "discount": 20,
+    "rating": 3.5,
+    "reviewCount": 189,
+    "colors": [
+      { "name": "Blue", "hex": "#2d4a6e" },
+      { "name": "Black", "hex": "#000000" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/skinny-jeans.jpg"],
+    "description": "Slim-fit jeans with a comfortable stretch fabric.",
+    "details": "98% cotton, 2% elastane.",
+    "tags": [],
+    "stock": 40
+  },
+  {
+    "id": "checkered-shirt",
+    "name": "Checkered Shirt",
+    "category": "Shirts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 180,
+    "originalPrice": 180,
+    "discount": 0,
+    "rating": 4.5,
+    "reviewCount": 210,
+    "colors": [
+      { "name": "Red", "hex": "#7a1f2b" },
+      { "name": "Navy", "hex": "#1c2b4a" }
+    ],
+    "sizes": ["Small", "Medium", "Large", "X-Large"],
+    "images": ["images/chemise.jpg"],
+    "description": "A comfortable checkered shirt perfect for casual outings.",
+    "details": "100% cotton.",
+    "tags": [],
+    "stock": 32
+  },
+  {
+    "id": "sleeve-striped-tshirt",
+    "name": "Sleeve Striped T-shirt",
+    "category": "T-shirts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 130,
+    "originalPrice": 160,
+    "discount": 30,
+    "rating": 4.5,
+    "reviewCount": 178,
+    "colors": [
+      { "name": "Orange", "hex": "#e8622c" },
+      { "name": "Black", "hex": "#000000" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/striped-shirt.jpg"],
+    "description": "A bold striped t-shirt with contrast sleeves.",
+    "details": "100% cotton.",
+    "tags": ["new"],
+    "stock": 18
+  },
+  {
+    "id": "vertical-striped-shirt",
+    "name": "Vertical Striped Shirt",
+    "category": "Shirts",
+    "style": "Formal",
+    "gender": "Men",
+    "price": 212,
+    "originalPrice": 232,
+    "discount": 20,
+    "rating": 5.0,
+    "reviewCount": 302,
+    "colors": [
+      { "name": "Green", "hex": "#4a5d3a" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/seven.jpg"],
+    "description": "A refined vertical striped shirt for a smart casual look.",
+    "details": "100% cotton.",
+    "tags": ["bestseller"],
+    "stock": 15
+  },
+  {
+    "id": "courage-graphic-tshirt",
+    "name": "Courage Graphic T-shirt",
+    "category": "T-shirts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 145,
+    "originalPrice": 145,
+    "discount": 0,
+    "rating": 4.0,
+    "reviewCount": 143,
+    "colors": [
+      { "name": "Orange", "hex": "#e8622c" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/graphic-tshirt.jpg"],
+    "description": "A graphic tee featuring bold typography.",
+    "details": "100% cotton.",
+    "tags": ["bestseller"],
+    "stock": 27
+  },
+  {
+    "id": "loose-fit-bermuda-shorts",
+    "name": "Loose Fit Bermuda Shorts",
+    "category": "Shorts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 80,
+    "originalPrice": 80,
+    "discount": 0,
+    "rating": 3.0,
+    "reviewCount": 96,
+    "colors": [
+      { "name": "Blue", "hex": "#5c7a9e" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/shorts.jpg"],
+    "description": "Relaxed fit denim bermuda shorts.",
+    "details": "100% cotton.",
+    "tags": ["bestseller"],
+    "stock": 22
+  },
+  {
+    "id": "faded-skinny-jeans",
+    "name": "Faded Skinny Jeans",
+    "category": "Jeans",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 210,
+    "originalPrice": 210,
+    "discount": 0,
+    "rating": 4.5,
+    "reviewCount": 267,
+    "colors": [
+      { "name": "Black", "hex": "#000000" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/jeans.jpg"],
+    "description": "Faded skinny jeans with a modern cut.",
+    "details": "98% cotton, 2% elastane.",
+    "tags": ["bestseller"],
+    "stock": 19
+  },
+  {
+    "id": "gradient-graphic-tshirt",
+    "name": "Gradient Graphic T-shirt",
+    "category": "T-shirts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 145,
+    "originalPrice": 145,
+    "discount": 0,
+    "rating": 3.5,
+    "reviewCount": 88,
+    "colors": [
+      { "name": "White", "hex": "#FFFFFF" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/unicorn.jpg"],
+    "description": "A colorful gradient graphic t-shirt.",
+    "details": "100% cotton.",
+    "tags": ["new"],
+    "stock": 30
+  },
+  {
+    "id": "polo-tipping-details",
+    "name": "Polo with Tipping Details",
+    "category": "Shirts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 180,
+    "originalPrice": 180,
+    "discount": 0,
+    "rating": 4.5,
+    "reviewCount": 154,
+    "colors": [
+      { "name": "Maroon", "hex": "#7a3b47" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/tipping.jpg"],
+    "description": "A classic polo shirt with contrast tipping details.",
+    "details": "100% cotton pique.",
+    "tags": [],
+    "stock": 21
+  },
+  {
+    "id": "black-striped-tshirt",
+    "name": "Black Striped T-shirt",
+    "category": "T-shirts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 120,
+    "originalPrice": 150,
+    "discount": 20,
+    "rating": 5.0,
+    "reviewCount": 199,
+    "colors": [
+      { "name": "Black", "hex": "#000000" },
+      { "name": "White", "hex": "#FFFFFF" }
+    ],
+    "sizes": ["Small", "Medium", "Large"],
+    "images": ["images/black-striped.jpg"],
+    "description": "A raglan-style striped t-shirt with contrast sleeves.",
+    "details": "100% cotton.",
+    "tags": ["new"],
+    "stock": 25
+  },
+  {
+    "id": "one-life-graphic-tshirt",
+    "name": "One Life Graphic T-shirt",
+    "category": "T-shirts",
+    "style": "Casual",
+    "gender": "Men",
+    "price": 260,
+    "originalPrice": 300,
+    "discount": 40,
+    "rating": 4.5,
+    "reviewCount": 451,
+    "colors": [
+      { "name": "Olive", "hex": "#4a4028" },
+      { "name": "Green", "hex": "#2d4a3e" },
+      { "name": "Navy", "hex": "#1e2a52" }
+    ],
+    "sizes": ["Small", "Medium", "Large", "X-Large"],
+    "images": [
+      "images/main-image.jpg",
+      "images/tshirt-1.jpg",
+      "images/tshirt-2.jpg",
+      "images/tshirt-3.jpg"
+    ],
+    "description": "This graphic t-shirt which is perfect for any occasion. Crafted from a soft and breathable fabric, it offers superior comfort and style.",
+    "details": "100% cotton.",
+    "tags": ["new"],
+    "stock": 24
+  }
+]
